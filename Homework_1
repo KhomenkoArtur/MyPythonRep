@@ -1,0 +1,30 @@
+#### import such lib to have opporunity use random commands
+import random
+
+##### defined variables to generate values in diapason from 0 to 1000
+a = 0
+b = 1000
+
+my_list = [random.randint(a,b) for _ in range(101)]
+print("My_list = " , my_list)
+
+######## find all even numbers from my_list
+even_list =[x for x in my_list if x % 2 == 0]
+print ("even_list = " , even_list)
+
+odd_list =[x for x in my_list if x % 2 != 0]
+print ("odd_list = " , odd_list)
+
+#######firure out length of lists
+even_list_len = len(even_list)
+odd_list_len = len(odd_list)
+
+print("even_list_len = ", even_list_len)
+print("odd_list_len = ", odd_list_len)
+
+#########calculate avg values for lists and printing values to python console
+avg_even_list = sum(even_list) / even_list_len
+print ("AVG even numbers is ", avg_even_list)
+
+avg_odd_list = sum(odd_list) / odd_list_len
+print ("AVG odd numbers is ", avg_odd_list)

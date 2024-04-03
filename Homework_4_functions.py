@@ -125,3 +125,10 @@ def main_function(*arg): # here we use *arg
 # 
 #   last iz TO calculate nuMber OF Whitespace characteRS in this Tex. caREFULL, not only Spaces, but ALL whitespaces. I got 87.
 # """
+
+
+def normalized_string(str):
+    string = str
+    #print(string.capitalize())
+    string.swapcase()
+    return string

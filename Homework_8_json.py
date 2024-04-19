@@ -250,7 +250,7 @@ if __name__ == "__main__":
 # Please use CSV file to publish news from json file or json string. Files path examples look at 221 and 223 lines
 # when you launch a program then input -6- and press enter.
 
-#Also here data for test.json file. You can use this examples
+#Also here you can find data for test.json file. You can use this examples:
 #{"type": "news", "text": "I would like to sell a car. Peugeot 308 14000 $", "city": "Lviv"}
 #{"type": "privat_ad", "text": "My name is Artur", "expiration": "2024-05-15"}
 #{"type": "news", "text": "USA given 5 billion $ for Ukraine","city": "Kyiv"}

@@ -1,0 +1,15 @@
+<news_feed>
+    <type name = "News">
+        <text>I am going to buy a bike. My budget is 2800$</text>
+        <city>lviv</city>
+    </type>
+    <type name = "privat_add">
+        <text>I am going to sell a bike. Bugutty 3000</text>
+        <city>lviv</city>
+        <expiration>2024-05-05</expiration>
+    </type>
+    <type name = "News">
+        <text>USA provide 60 billion $ as military help for Ukraine</text>
+        <city>lviv</city>
+    </type>
+</news_feed>

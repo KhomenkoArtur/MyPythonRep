@@ -471,3 +471,4 @@ class main():
 if __name__ == "__main__":
     Main = main()
     Main.run()
+# When you press number 8 please use file path as an example C:\Users\Artur_Khomenko\Desktop\input_directory\TEST.csv. Also, test.csv file attached in git directory as well. You can use it for testing
